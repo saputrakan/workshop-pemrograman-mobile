@@ -63,6 +63,17 @@ flutter:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
+  assets:
+    - assets/images/submarine.jpg
+    - assets/images/monkasel_1.jpg
+    - assets/images/monkasel_2.jpg
+    - assets/images/monkasel_3.jpeg
+    - assets/images/klenteng.jpg
+    - assets/images/pahlawan.jpg
+    - assets/images/sampoerna.jpg
+    - assets/images/sby.jpg
+    - assets/images/zoo.jpg
+
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 
@@ -88,3 +99,16 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+  fonts:
+    - family: Lobster
+      fonts:
+        - asset: assets/fonts/Lobster-Regular.ttf
+
+    - family: Oxygen
+      fonts:
+        - asset: assets/fonts/Oxygen-Regular.ttf
+        - asset: assets/fonts/Oxygen-Bold.ttf
+          weight: 700
+
+
+
