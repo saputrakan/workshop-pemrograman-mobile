@@ -32,7 +32,7 @@ class Minggu2 extends StatelessWidget {
                 child: const Text("Percobaan 2"),
                 onPressed: (){
                   Navigator.push(context, MaterialPageRoute(builder: (context){
-                    return Percobaan2();
+                    return const Percobaan2();
                   }));
                 },
               ),
